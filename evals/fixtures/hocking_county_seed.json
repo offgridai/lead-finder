@@ -1,0 +1,65 @@
+[
+  {
+    "business_id": "fixture-001",
+    "name": "Pine Ridge Family Campground",
+    "business_type": "campground",
+    "address": "Example Road, Hocking County, OH",
+    "county": "Hocking County",
+    "state": "OH",
+    "website": "https://example.com/pine-ridge",
+    "source_urls": ["https://example.com/pine-ridge"],
+    "evidence": [
+      {
+        "type": "website",
+        "source_name": "Seed fixture",
+        "url": "https://example.com/pine-ridge",
+        "title": "Business website",
+        "text": "Family owned campground since 1988. Seasonal operation. Book now online. Website appears stale with no recent updates.",
+        "observed_value": {"rv_sites": 38, "cabins": 4, "campsites": 22},
+        "confidence": 0.4
+      }
+    ]
+  },
+  {
+    "business_id": "fixture-002",
+    "name": "Hollow Creek Cabin Resort",
+    "business_type": "cabin_resort",
+    "address": "Example Lane, Hocking County, OH",
+    "county": "Hocking County",
+    "state": "OH",
+    "website": "https://example.com/hollow-creek",
+    "source_urls": ["https://example.com/hollow-creek"],
+    "evidence": [
+      {
+        "type": "website",
+        "source_name": "Seed fixture",
+        "url": "https://example.com/hollow-creek",
+        "title": "Business website",
+        "text": "Expanded with new cabins and renovated lodge. Online booking available. Second generation family management highlighted.",
+        "observed_value": {"rv_sites": 0, "cabins": 18, "campsites": 0},
+        "confidence": 0.45
+      }
+    ]
+  },
+  {
+    "business_id": "fixture-003",
+    "name": "Old Mill RV Park",
+    "business_type": "rv_park",
+    "address": "Example Pike, Hocking County, OH",
+    "county": "Hocking County",
+    "state": "OH",
+    "website": "https://example.com/old-mill-rv",
+    "source_urls": ["https://example.com/old-mill-rv"],
+    "evidence": [
+      {
+        "type": "manual_note",
+        "source_name": "Seed fixture",
+        "url": "https://example.com/old-mill-rv",
+        "title": "Manual seed note",
+        "text": "Long-term owner. Outdated website. Declining reviews mention maintenance complaints. No recent updates found.",
+        "observed_value": {"rv_sites": 55, "cabins": 0, "campsites": 10},
+        "confidence": 0.35
+      }
+    ]
+  }
+]
